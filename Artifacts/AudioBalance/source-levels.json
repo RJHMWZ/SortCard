@@ -1,0 +1,135 @@
+[
+  {
+    "file": "ButtonClick.wav",
+    "seconds": 0.09,
+    "peak_db": -4.3,
+    "rms_db": -24.02,
+    "active_rms_db": -20.45
+  },
+  {
+    "file": "CardCollect.wav",
+    "seconds": 0.23,
+    "peak_db": -7.7,
+    "rms_db": -21.15,
+    "active_rms_db": -21.07
+  },
+  {
+    "file": "CardFlip.wav",
+    "seconds": 0.11,
+    "peak_db": -4.73,
+    "rms_db": -21.48,
+    "active_rms_db": -17.11
+  },
+  {
+    "file": "CardFlip0.wav",
+    "seconds": 0.11,
+    "peak_db": -3.93,
+    "rms_db": -21.57,
+    "active_rms_db": -17.2
+  },
+  {
+    "file": "CardFlip1.wav",
+    "seconds": 0.19,
+    "peak_db": -4.36,
+    "rms_db": -21.48,
+    "active_rms_db": -14.72
+  },
+  {
+    "file": "CardFlip2.wav",
+    "seconds": 0.19,
+    "peak_db": -2.95,
+    "rms_db": -22.05,
+    "active_rms_db": -15.31
+  },
+  {
+    "file": "CardImpact.wav",
+    "seconds": 0.11,
+    "peak_db": -4.69,
+    "rms_db": -18.1,
+    "active_rms_db": -15.5
+  },
+  {
+    "file": "CardImpact0.wav",
+    "seconds": 0.11,
+    "peak_db": -8.92,
+    "rms_db": -22.46,
+    "active_rms_db": -19.85
+  },
+  {
+    "file": "CardImpact1.wav",
+    "seconds": 0.08,
+    "peak_db": -10.49,
+    "rms_db": -23.49,
+    "active_rms_db": -23.41
+  },
+  {
+    "file": "CardImpact2.wav",
+    "seconds": 0.13,
+    "peak_db": -4.84,
+    "rms_db": -21.78,
+    "active_rms_db": -18.32
+  },
+  {
+    "file": "CardReturn.wav",
+    "seconds": 0.18,
+    "peak_db": -5.23,
+    "rms_db": -23.44,
+    "active_rms_db": -18.72
+  },
+  {
+    "file": "Combo.wav",
+    "seconds": 0.46,
+    "peak_db": -9.16,
+    "rms_db": -20.16,
+    "active_rms_db": -18.05
+  },
+  {
+    "file": "Failure.wav",
+    "seconds": 1.29,
+    "peak_db": -6.56,
+    "rms_db": -17.39,
+    "active_rms_db": -15.33
+  },
+  {
+    "file": "LifeLoss.wav",
+    "seconds": 0.28,
+    "peak_db": -0.99,
+    "rms_db": -15.09,
+    "active_rms_db": -12.7
+  },
+  {
+    "file": "MistClear.wav",
+    "seconds": 0.32,
+    "peak_db": -7.69,
+    "rms_db": -22.11,
+    "active_rms_db": -21.83
+  },
+  {
+    "file": "PoolFill.wav",
+    "seconds": 0.54,
+    "peak_db": -5.78,
+    "rms_db": -18.01,
+    "active_rms_db": -15.44
+  },
+  {
+    "file": "Shuffle.wav",
+    "seconds": 0.57,
+    "peak_db": -3.96,
+    "rms_db": -25.19,
+    "active_rms_db": -24.26
+  },
+  {
+    "file": "TutorialStep.wav",
+    "seconds": 0.43,
+    "peak_db": -10.71,
+    "rms_db": -22.04,
+    "active_rms_db": -19.57
+  },
+  {
+    "file": "Victory.wav",
+    "seconds": 1.48,
+    "peak_db": -1.21,
+    "rms_db": -13.53,
+    "active_rms_db": -12.09
+  }
+]

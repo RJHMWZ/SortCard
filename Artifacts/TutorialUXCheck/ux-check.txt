@@ -1,0 +1,28 @@
+PASS 27 checks
+untimed lesson starts without waiting step
+trash icon and drop zone centers match 1080x1920
+trash stays above coach and inside content
+trash icon and drop zone centers match 720x1600
+trash stays above coach and inside content
+trash icon and drop zone centers match 1170x2532
+trash stays above coach and inside content
+trash icon and drop zone centers match 1920x1080
+trash stays above coach and inside content
+unrelated taps cannot skip the lesson
+first tap reveals the fish
+collection immediately advances and shows flower automatically
+lesson never requires auto-return or early shuffle
+highlighted flower can be dragged
+discard advances straight to shuffle without losing a life
+Fresh Cards enabled at shuffle instruction
+click raycast hits UI
+tutorial decorations do not cover Fresh Cards
+real button event starts shuffle immediately
+shuffle completes lesson and shows Play button
+click raycast hits UI
+tutorial decorations do not cover Continue Lesson
+Play starts a clean timed round
+regression setup has active shards
+active shards do not block shuffle
+tutorial can be replayed
+exit tutorial returns to normal play

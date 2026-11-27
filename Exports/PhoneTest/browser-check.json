@@ -1,0 +1,23 @@
+{
+  "formal": {
+    "tutorial": false,
+    "state": 1,
+    "time": 32.97289999997601
+  },
+  "victory": {
+    "state": 3,
+    "score": 2850,
+    "streak": 12,
+    "total": 12,
+    "lives": 5
+  },
+  "wrong": {
+    "score": 0,
+    "lives": 4
+  },
+  "failure": 4,
+  "errors": [],
+  "landscape": "portrait content centered with matching side background",
+  "fileOpen": true,
+  "reopenTutorial": false
+}

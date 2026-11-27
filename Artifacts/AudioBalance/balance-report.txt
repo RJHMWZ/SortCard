@@ -1,0 +1,23 @@
+Audio balance: source-file measurements plus playback gain (master 0.8).
+No source WAV files modified.
+Audible RMS excludes blocks >20 dB below the loudest 20 ms block.
+
+CardCollect      before  -31.4 dBFS   after  -23.9 dBFS
+PoolFill         before  -21.5 dBFS   after  -23.4 dBFS
+Combo            before  -27.1 dBFS   after  -23.7 dBFS
+Shuffle          before  -30.6 dBFS   after  -24.6 dBFS
+MistClear        before  -29.8 dBFS   after  -24.2 dBFS
+Victory          before  -14.9 dBFS   after  -23.4 dBFS
+ButtonClick      before  -28.8 dBFS   after  -23.3 dBFS
+CardReturn       before  -29.1 dBFS   after  -23.8 dBFS
+TutorialStep     before  -28.4 dBFS   after  -23.4 dBFS
+CardFlip0        before  -23.3 dBFS   after  -23.6 dBFS
+CardFlip1        before  -20.8 dBFS   after  -23.6 dBFS
+CardFlip2        before  -21.4 dBFS   after  -23.6 dBFS
+CardImpact0      before  -24.4 dBFS   after  -23.5 dBFS
+CardImpact1      before  -28.0 dBFS   after  -23.8 dBFS
+CardImpact2      before  -22.9 dBFS   after  -23.5 dBFS
+before-preview.wav: mixed peak -2.93 dBFS, clipped samples 0
+balanced-preview.wav: mixed peak -4.31 dBFS, clipped samples 0
+Rapid combo stress (10 collections/s), master 0.8: peak -5.56 dBFS, clipped samples 0
+Rapid combo stress (10 collections/s), master 1: peak -3.62 dBFS, clipped samples 0

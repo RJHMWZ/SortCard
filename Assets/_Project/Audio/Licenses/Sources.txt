@@ -1,0 +1,14 @@
+Audio source: Kenney (CC0). Original recordings and musical samples edited, layered, equalized and level-matched for Little Finds.
+https://kenney.nl/assets/casino-audio
+https://kenney.nl/assets/impact-sounds
+https://kenney.nl/assets/music-jingles
+
+Flip/return/launch/shuffle/mist: Casino Audio card foley.
+Impact: Impact Sounds wood light + Casino Audio chip lay.
+Pool/Combo/Tutorial: Music Jingles pizzicato 04/00/16.
+Victory: Kenney Music Jingles SAX10 ascending phrase plus a G-major resolution resampled from its final recorded note; edited offline for this game.
+No prior oscillator beeps are used in the new bank.
+
+LifeLoss.wav: original impact cue synthesized offline for this project; no external audio source.
+
+Failure.wav: former Victory.wav, unchanged; Kenney Music Jingles pizzicato 07 edit.

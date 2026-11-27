@@ -1,0 +1,32 @@
+Luna / Unity Playworks export preparation
+
+Unity version: 2022.3.62f2.
+Entry scene: Assets/_Project/Scenes/Game.unity (the only build scene).
+Tutorial and all five stages run in this scene; no runtime scene loading is required.
+Rendering: built-in pipeline, native Unity UI. Keep the checked-in UGUI and Audio packages.
+
+The Luna/Unity Playworks plugin is not installed in this project yet.
+Install your licensed plugin by adding uk.lunalabs.luna to Packages/manifest.json,
+using the path to its scripts/package.json as described in the official guide.
+https://docs.lunalabs.io/docs/playable/setup/install-plugin/
+
+Before HTML export:
+1. Open Game.unity and run Little Finds > Validate Playable Project.
+2. In Playworks select only Game.unity. Run Code Diagnostics / Playable Health Check.
+3. Build a Develop HTML version, then test sound after the first touch, dragging,
+   shards, the tutorial, five stages, combo feedback, resizing and result buttons.
+4. Review the plugin Size Breakdown; apply platform-specific texture/audio compression
+   there before producing the final network-specific HTML/ZIP.
+
+Runtime compatibility changes:
+- Removed native iOS/Android plugin calls and audio-thread callbacks.
+- Damage sound is a referenced WAV instead of AudioClip.Create/SetData.
+- Luna uses the actual browser viewport instead of native device safe-area APIs.
+- Fonts and audio are explicit scene references, not runtime resource lookups.
+- Validation scripts, screenshots and historical asset-generation tools are not shipped.
+
+Luna performs its own C# to JavaScript conversion. Unity compilation and a build with
+UNITY_LUNA defined are checks, not proof that an actual Luna HTML export succeeds.
+https://docs.lunalabs.io/docs/playable/setup/prepare-project/
+
+Source audio licenses remain under Assets/_Project/Audio/Licenses.

@@ -1,0 +1,31 @@
+Project cleanup and Luna preparation
+
+Only build scene: Assets/_Project/Scenes/Game.unity.
+Runtime scripts: 24. Editor scripts: 1 (PlayableProjectAudit).
+Direct package dependencies: 42 -> 2 (Unity UI and Audio).
+Assets source size: 6,920,046 -> 1,488,489 bytes (approximately 78% reduction).
+Removed unused scenes, validation runners, old scene builders, obsolete artwork/fonts,
+reference HTML, native haptics plugin, generator tools and temporary test project.
+Kept all live serialized dependencies and source audio licenses.
+Removed 212 unused/preallocated UI effect objects from startup and 4 audio voices.
+
+Compatibility preparation:
+- Tutorial and campaign share one scene, with no runtime scene loading.
+- Baked damage WAV replaces runtime audio generation; no audio-thread filter callback.
+- Native mobile vibration is excluded from UNITY_LUNA/UNITY_WEBGL.
+- No runtime reflection, file I/O, external native plugin or dynamic font lookup.
+- Built-in rendering replaces unused URP dependencies.
+- Ordinary and UNITY_LUNA runtime code compile with C# 7 syntax.
+
+Verification on the cleaned assets / minimal packages:
+Serialized GUID reference audit: PASS.
+Playable project audit: PASS.
+Tutorial: PASS 36 checks.
+Five-level campaign: PASS 61 checks (including shuffle and disposal routes).
+Trash dragging / lid animation: PASS 25 checks.
+Result panel / transitions: PASS 17 checks.
+Actual Luna HTML export: NOT RUN, plugin not installed.
+See LUNA_EXPORT.txt for installation and export checks.
+
+Source backup (outside the project): C:\Users\ivy\AppData\Local\Temp\SortCard-before-cleanup-20261124-142652.zip
+Verification archive (outside the project): C:\Users\ivy\AppData\Local\Temp\SortCard-cleanup-validation-20261124-144048.zip

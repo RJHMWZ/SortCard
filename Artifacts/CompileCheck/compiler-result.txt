@@ -1,0 +1,5 @@
+Assets\Editor\SplitTexture.cs(28,45): warning CS0618: 'TextureImporter.spritesheet' is obsolete: 'Support for accessing sprite meta data through spritesheet has been removed. Please use the UnityEditor.U2D.Sprites.ISpriteEditorDataProvider interface instead.'
+Assets\Editor\SpawnTool.cs(143,38): warning CS0168: The variable 'ex' is declared but never used
+Assets\Editor\SpawnTool.cs(184,42): warning CS0168: The variable 'ex' is declared but never used
+
+Exit: 0

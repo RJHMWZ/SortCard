@@ -1,0 +1,107 @@
+{
+  "BuildID": "991fd5af-b90b-43ba-8aa5-9227ecc75faa",
+  "Command": "project:build",
+  "ProjectID": "5c95f280842c24d4da20222024853a01",
+  "ProjectStateHash": "d1b96b9143daa34d0cc6dd8c666cc129dba9205c355b56a1eb9ac275e07f22da",
+  "StageCompletedAt": 3,
+  "EarliestFatalError": 0,
+  "StartTime": 1795596208638,
+  "EndTime": 1795596235306,
+  "PlaygroundUserID": 30877,
+  "OperatingSystem": "win32",
+  "UnityPackageID": null,
+  "TargetPlatform": "playground",
+  "UnityVersion": "2022.3.62f2",
+  "LunaVersion": "7.1.0",
+  "LogCount": 4,
+  "Logs": [
+    {
+      "LogID": "2dbedf7d-aca1-454f-a7fd-dcdd54f83289",
+      "Order": 2,
+      "Timestamp": 1795596235723,
+      "Stage": 3,
+      "ErrorType": 0,
+      "ErrorCode": "LP3005",
+      "Description": "You are using a Luna reserved keyword: Url",
+      "Details": [
+        "You are using a reserved keyword: Url for Luna. Please change the name of the field/class"
+      ],
+      "DescriptionValues": [
+        "Url"
+      ],
+      "DetailsValues": [
+        "Url"
+      ],
+      "LogCount": 1,
+      "LinePosition": 5,
+      "FilePath": "D:\\workspace\\SortCard\\LunaTemp\\Assemblies\\stage_2\\decompiled\\Url.cs",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "6977565c-f0d9-4ce7-aa14-fa0d09f837da",
+      "Order": 2,
+      "Timestamp": 1795596235725,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3007",
+      "Description": "You are not using any custom events",
+      "Details": [
+        "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+      ],
+      "DescriptionValues": [
+        ""
+      ],
+      "DetailsValues": [
+        ""
+      ],
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "75930f39-b4ae-41b3-99fe-9eb98aa08173",
+      "Order": 2,
+      "Timestamp": 1795596235726,
+      "Stage": 3,
+      "ErrorType": 3,
+      "ErrorCode": "LP3011",
+      "Description": "You are not using any LunaPlaygroundFields attributes.",
+      "Details": [
+        "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+      ],
+      "DescriptionValues": null,
+      "DetailsValues": null,
+      "LogCount": 1,
+      "LinePosition": null,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    },
+    {
+      "LogID": "e65168e3-1246-4425-9431-4c047d3b5bad",
+      "Order": 0,
+      "Timestamp": 1795596212664,
+      "Stage": 1,
+      "ErrorType": 2,
+      "ErrorCode": "LP1014",
+      "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+      "Details": [
+        "Navigate to the Runtime Analysis → Code tab to enable code stripping. Before uploading the playable, please make sure to have played all scenario’s of the playable in a development build to make Runtime Analysis work properly."
+      ],
+      "DescriptionValues": [],
+      "DetailsValues": [],
+      "LogCount": 1,
+      "LinePosition": 0,
+      "FilePath": "",
+      "ClassName": "",
+      "MemberName": "",
+      "Severity": 0
+    }
+  ]
+}
